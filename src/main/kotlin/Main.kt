@@ -1,6 +1,6 @@
 fun main() {
     println("Введите строку:")
-    val input = readLine()
+    val input: String? = readLine()
     var count = 0
     var prevChar: Char? = null
     var result = ""
